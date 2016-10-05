@@ -1,0 +1,56 @@
+.item-bordered {
+	border: 1px solid #cec2ae;
+	margin: 23px 0 50px;
+	padding: 16px 20px 0;
+}
+.item-bordered h3 {
+	font-size: 24px;
+	font-weight: 400;
+	margin-bottom: 14px
+}
+.item-bordered .picHolder {
+	margin: 24px 0 18px;
+}
+.item-bordered .picHolder a {
+	margin-right: -3px;
+}
+.item-bordered .block {
+	background: #f0e4cf;
+	margin: 10px -20px 0;
+	padding: 20px;
+	display: table;
+	width: 100%;
+}
+.item-bordered .block .col {
+	display: table-cell;
+	vertical-align: middle;
+}
+.item-bordered .block .col:first-child {
+	width: 100px;
+}
+.item-bordered .block .col.divider {
+	position: relative;
+
+	width: 210px;
+}
+.item-bordered .block .col.divider:before {
+	content: '';
+	width: 1px;
+	height: 80px;
+	background: #cec2ae;
+	position: absolute;
+	top: 0;
+	left: -21px;
+}
+.block-phone {
+	background: url("../images/ic_phone.png") left top no-repeat;
+	padding-left: 30px;
+	position: relative;
+}
+.block-mail {
+	background: url("../images/ic_mail.png") left top no-repeat;
+	padding-left: 30px;
+}
+.item-bordered .new-adv-item-links a {
+	margin-top: 0;
+}

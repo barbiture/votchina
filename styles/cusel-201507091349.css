@@ -1,0 +1,31 @@
+.cusel,
+.cuselFrameRight {background:url("../images/konkurs-filter.png") no-repeat}
+.cusel {height:30px; display:inline-block; position:relative; cursor:pointer; z-index:1; outline:none; font-size:14px; line-height:30px}
+.cuselFrameRight {position:absolute; z-index:2; top:0; right:0; height:30px; width:30px; background-position:right top}
+.cusel.classDisCusel {opacity:.5; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50)}
+.cuselText {height:30px; padding:0 0 0 13px; cursor:pointer; overflow:hidden; position:absolute; z-index:1; top:0; left:0; color:#545454; outline:none}
+.cusel span {display:block; cursor:pointer; padding:6px 30px 6px 12px; zoom:1; line-height:18px; color:#545454}
+.cusel span:first-child {border:none}
+.cusel span:hover,
+.cusel .cuselOptHover {background:#545454; color:#fff}
+.cusel .cuselActive {background:#545454 !important; color:#fff !important; cursor:default}
+.cuselOpen {z-index:999}
+.cusel .cusel-scroll-wrap {display:block; visibility:hidden; position:absolute; left:0; top:100%; background:#fff; min-width:100%; width:auto}
+.cusel .jScrollPaneContainer {position:relative; overflow:hidden; z-index:5; border:1px solid #a5916b}
+.cusel .jScrollPaneTrack {height:100%; width:16px !important; background:url("../images/select-track.png"); position:absolute; top:0; right:0}
+.cusel .jScrollPaneDrag {position:absolute; background:url("../images/select-drag.png") left center; cursor:pointer; width:16px !important; right:0; overflow:hidden}
+.cusel .jScrollPaneDragTop {position:absolute; top:0; left:0; width:16px !important; height:2px !important; font:0/0 serif; overflow:hidden; background:url("../images/select-drag-top.png")}
+.cusel .jScrollPaneDragBottom {position:absolute; bottom:0; left:0; width:16px !important; height:2px !important; font:0/0 serif; overflow:hidden; background:url("../images/select-drag-bottom.png")}
+.cusel .jScrollArrowUp {position:absolute; top:0; right:0; width:16px !important; height:15px; cursor:pointer; background:url("../images/select-arrow.png") no-repeat; overflow:hidden}
+.cusel .jScrollArrowDown {width:16px !important; height:16px; position:absolute; top:auto; bottom:0; right:0; cursor:pointer; background:url("../images/select-arrow.png") no-repeat left -15px; overflow:hidden}
+
+.classDisCusel,
+.classDisCusel * {cursor:default}
+
+.new-adv-service .cusel,
+.new-adv-service .cuselFrameRight {background-image:url("../images/for_residents/select.png")}
+.new-adv-service .cusel {height:52px; font-size:17px; line-height:52px; vertical-align:middle}
+.new-adv-service .cuselFrameRight {height:52px}
+.new-adv-service .cuselText {height:52px; padding:0 0 0 21px; color:#2c2c2c}
+.new-adv-service .cusel span {padding:15px 30px 15px 20px; line-height:22px}
+.new-adv-service .cusel .jScrollPaneContainer {border-color:#eee4d1}

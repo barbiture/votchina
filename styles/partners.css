@@ -1,0 +1,115 @@
+.konkurs-item-content {
+	width: 348px;
+}
+
+.konkurs-project-photos {
+	margin: 0 auto;
+
+	width: 414px;
+}
+
+.block-link {
+  padding: 3px;
+}
+.block-link div {
+  border: 1px solid #F1E9D9;
+  cursor: pointer;
+  padding: 15px 5px;
+}
+.block-link div:hover {
+  background: #F1E9D9;
+  /*color:#ffffff;*/
+}
+
+.inblock-fancy {
+ width: 900px;
+ margin:5px;
+}
+.inblock-fancy:after {
+	display: block;
+
+	content: '.';
+
+	height: 0;
+
+	visibility: hidden;
+	clear: both;
+}
+.inblock-head {
+	font-size: 26px;
+}
+
+.inblock-left-content {
+	width: 482px;
+	float: left;
+	margin-right: 10px;
+	font-size: 16px;
+}
+
+.inblock-right-content {
+	width: 408px;
+	float: right;
+}
+
+
+
+
+
+.article > .block	{
+	background: #f0e4ce;
+
+	margin: 0 0 35px -20px;
+	padding: 10px 10px 9px;
+	
+	overflow: hidden;
+}
+.article > .block p:last-child	{
+	margin-bottom: 0;
+}
+.article > .block .picHolder	{
+	margin: 0;
+	padding: 0;
+
+	overflow: hidden;
+}
+.article > .block .picHolder.floatLeft	{
+	float: left;
+
+	margin-right: 20px;
+}
+.article > .block .picHolder img	{
+	float: left;
+
+	margin: 0 1px 1px 0;
+}
+.article > .block .picHolder .video	{
+	float: left;
+	position: relative;
+}
+.article > .block .picHolder .video ins	{
+	display: block;
+	background: url("../images/ic_video_cover.png");
+	width: 42px;
+	height: 42px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -21px 0 0 -21px;
+}
+.article > .block ul	{
+	margin: 0 0 0 15px;
+	padding: 0;
+}
+.article > .block li	{
+	list-style: none;
+	margin: 0 0 10px 0;
+	padding: 0;
+	font-size: 12px;
+}
+.article > .block li a	{
+	color: #2c2c2c;
+}
+.article > .block li img	{
+	vertical-align: middle;
+	margin-right: 7px;
+}

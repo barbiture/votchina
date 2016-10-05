@@ -1,0 +1,232 @@
+div.text-wrapper .konkursPage {width:950px; margin:0 auto}
+.konkursPage:after {content:"."; display:block; clear:both; visibility:hidden; height:0}
+
+.konkursPage-left {float:left; width:725px} /*747px*/
+
+.konkursPage-title {line-height:118px; padding:0 0 18px 0; height:118px}
+.konkursPage-title-01 {background: url("../images/konkurs-title-2.png") no-repeat scroll 0 0 transparent; height: 75px; line-height: 75px; padding: 0 0 24px;}
+.konkursPage-name-title-01 {background: url("../images/konkurs-title-2.png") no-repeat scroll 0 0 transparent; height: 75px; line-height: 75px; padding: 0 0 24px;}
+.konkursPage-title-02 {background: url("../images/contest-2-title.png") no-repeat scroll 0 0 transparent; height: 75px; line-height: 75px; padding: 0 0 24px;}
+.konkursPage-name-title-02 {background: url("../images/contest-2-name-title.png") no-repeat scroll 0 0 transparent; height: 118px; line-height: 118px; padding: 0 0 24px;}
+.konkursPage-title-3 {line-height:0; padding:22px 0 45px 0}
+
+.konkurs-title-2 {font-size:36px; line-height:40px; font-weight:bold; color:#2c2c2c; padding:0 0 29px 0}
+
+.konkurs-filter {background:#f1e9d9; padding:15px 0; width:100%; margin:0 0 34px 0; position:relative; z-index:20}
+.konkurs-filter:after {content:"."; display:block; clear:both; visibility:hidden; height:0}
+.konkurs-filter-name {float:left; padding:0 15px 0 21px; font-size:14px; font-weight:bold; color:#545454; line-height:30px}
+.konkurs-filter-cur {float:left; width:381px; height:30px; position:relative}
+.konkurs-filter-cur span {display:block; position:relative; cursor:pointer; padding:0 20px 0 16px; width:345px; overflow:hidden; font-size:14px; line-height:30px; color:#545454; white-space:nowrap; text-overflow:ellipsis; background:url("../images/konkurs-filter.png")}
+div.text-wrapper .konkurs-filter-cur ul {display:none; position:absolute; left:0; top:30px; margin:0; padding:0; width:379px; list-style:none; font-size:14px; line-height:18px; border:1px solid #a5916b; background:#fff; overflow:auto; max-height:200px}
+div.text-wrapper .konkurs-filter-cur-active ul {display:block}
+div.text-wrapper .konkurs-filter-cur ul li {margin:0; padding:0; list-style:none}
+div.text-wrapper .konkurs-filter-cur ul li a {color:#545454; text-decoration:none; display:block; padding:6px 15px}
+div.text-wrapper .konkurs-filter-cur ul li a:hover,
+div.text-wrapper .konkurs-filter-cur ul li.active a {background:#545454; color:#fff}
+
+.konkurs-list {padding:0 0 10px 0}
+.konkurs-item {margin:0 0 23px 0; padding:0 20px; background:#f1e9d9}
+.konkurs-item-inner {width:100%; overflow:hidden}
+.konkurs-item-inner:after {content:"."; display:block; clear:both; visibility:hidden; height:0}
+.konkurs-item-photos {float:left; width:197px; padding:36px 0; position:relative}
+.konkurs-item-photos-list {position:relative; width:100%; height:197px; overflow:hidden; line-height:0}
+div.text-wrapper .konkurs-item-photos-list ul {position:relative; margin:0; padding:0; list-style:none}
+div.text-wrapper .konkurs-item-photos-list ul li {position:relative; margin:0; padding:0; list-style:none; width:197px; height:197px; overflow:hidden}
+.konkurs-item-photos-prev {display:block; position:absolute; left:0; top:0; width:100%; height:36px; background:url("../images/konkurs-prev.png") no-repeat center}
+.konkurs-item-photos-next {display:block; position:absolute; left:0; bottom:0; width:100%; height:36px; background:url("../images/konkurs-next.png") no-repeat center}
+.konkurs-item-content {float:right; width:470px}
+.konkurs-item-name {font-weight:bold; font-size:18px; line-height:20px; padding:33px 0 17px 0}
+.konkurs-item-name a {color:#2c2c2c}
+.konkurs-item-info {font-size:13px; line-height:16px; color:#2c2c2c; padding:0 0 9px 0}
+.konkurs-item-info em {font-style:italic}
+.konkurs-item-detail {font-weight:bold}
+.konkurs-item-detail a {color:#2c2c2c}
+.konkurs-item-social {width:100%; padding:30px 0 0 0}
+.konkurs-item-social:after {content:"."; display:block; clear:both; visibility:hidden; height:0}
+.konkurs-item-social a {float:left; height:32px; font-size:11px; line-height:13px; font-weight:bold; text-decoration:none; color:#575656; width:110px; padding:9px 30px 0 42px; margin:0 12px 0 0}
+.konkurs-item-social a.konkurs-item-social-vk {background:#e3dbcc url("../images/konkurs-item-social-vk.png") no-repeat 9px center}
+.konkurs-item-social a.konkurs-item-social-facebook {background:#e3dbcc url("../images/konkurs-item-social-facebook.png") no-repeat 9px center}
+
+.konkurs-pager {padding:16px 0; margin:3px 0 0 0; background:#f1e9d9; text-align:center}
+.konkurs-pager a {display:inline-block; vertical-align:top; width:26px; height:26px; background:#d4cec2; text-align:center; line-height:26px; color:#434343; font-size:14px; margin:0 3px; text-decoration:none}
+.konkurs-pager a.konkurs-pager-prev {margin-right:11px; background:url("../images/konkurs-pager.png")}
+.konkurs-pager a.konkurs-pager-next {margin-left:11px; background:url("../images/konkurs-pager.png") left -26px}
+.konkurs-pager span {display:inline-block; vertical-align:top; width:26px; height:26px; background:#1a75dd; text-align:center; line-height:26px; color:#fff; font-size:14px; margin:0 3px}
+
+.konkursPage-right {float:right; width:190px; padding:71px 0 0 0; position:relative}
+
+.konkursPage-menu {font-weight:bold; line-height:17px}
+div.text-wrapper .konkursPage-menu ul {margin:0; padding:0 0 10px 0; list-style:none}
+div.text-wrapper .konkursPage-menu ul li {margin:0; padding:0 0 14px 0; list-style:none; color:#222}
+div.text-wrapper .konkursPage-menu ul li.level3,
+div.text-wrapper .konkursPage-menu ul li.level4 {
+	font-size: 0.9em;
+	
+	padding-left: 15px;
+}
+div.text-wrapper .konkursPage-menu ul li.paint {color:#FF4444}
+div.text-wrapper .konkursPage-menu ul li a {color:#545454}
+div.text-wrapper .konkursPage-menu ul li.active a {color:#2c2c2c}
+div.text-wrapper .konkursPage-menu ul li.paint a {color:#FF4444}
+
+.konkursPage-right-sep {width:160px; height:18px; position:relative; background:url("../images/konkurs-right-sep.png"); position:relative; margin-left:-5px}
+
+.konkurs-social {padding:36px 0 10px 0}
+.konkurs-social-title {font-size:11px; line-height:13px; white-space:nowrap; color:#474747; padding:0 0 17px 0}
+.konkurs-social-item {line-height:0; padding:0 0 12px 0}
+
+.konkurs-project-name {font-size:32px; font-weight:bold; color:#2c2c2c; line-height:34px; padding:17px 0 0 0; position:relative; margin:0 0 10px}
+.konkurs-project-author {font-size:22px; font-weight:bold; color:#2c2c2c; line-height:26px; padding:1px 0 36px 0}
+
+.konkurs-project-photos {position:relative; margin:0; padding:18px 47px; background:#f1e9d9}
+.konkurs-project-photos-list {width:100%; position:relative; overflow:hidden; line-height:0}
+div.text-wrapper .konkurs-project-photos-list ul {position:relative; width:9999px; margin:0; padding:0; list-style:none}
+div.text-wrapper .konkurs-project-photos-list ul:after {content:"."; display:block; clear:both; visibility:hidden; height:0}
+div.text-wrapper .konkurs-project-photos-list ul li {float:left; position:relative; width:197px; height:197px; margin:0 20px 0 0; padding:0; list-style:none; overflow:hidden}
+.konkurs-project-photos-prev {display:block; width:47px; height:197px; position:absolute; left:0; top:20px; background:url("../images/konkurs-project-photo-prev.png") no-repeat center; text-decoration: none !important; z-index:4}
+.konkurs-project-photos-next {display:block; width:47px; height:197px; position:absolute; right:0; top:20px; background:url("../images/konkurs-project-photo-next.png") no-repeat center; text-decoration: none !important; z-index:4}
+.konkurs-project-descr {padding:33px 58px 0 58px; font-size:14px; line-height:17px; color:#2c2c2c}
+div.text-wrapper .konkurs-project-descr p {margin:0; padding:0 0 9px 0}
+.konkurs-project-social {font-size:18px; font-weight:bold; color:#2c2c2c; line-height:20px; margin:18px 0 -11px 0}
+
+.konkurs-project-other {width:100%; font-size:12px; line-height:14px; color:#8b8b8b; padding:51px 0 0 0}
+.konkurs-project-other:after {content:"."; display:block; clear:both; visibility:hidden; height:0}
+.konkurs-project-other a {color:#545454}
+.konkurs-project-other-prev {float:left}
+.konkurs-project-other-next {float:right}
+
+.konkurs-main-item {width:725px; height:99px; background:url("../images/konkurs-main-item.png")}
+.konkurs-main-item:after {content:"."; display:block; clear:both; visibility:hidden; height:0}
+.konkurs-main-item-name {float:left; padding:0 0 0 20px; width:260px; font-size:14px; font-weight:bold; color:#545454; line-height:17px}
+.konkurs-main-item-name table {width:100%; border-collapse:collapse; margin:0}
+.konkurs-main-item-name table td {vertical-align:middle; text-align:left; padding:0; height:99px}
+.konkurs-main-item-title {float:left; height:99px; line-height:99px; text-align:center; width:222px; padding:0 0 0 43px}
+.konkurs-main-item-title img {vertical-align:middle}
+.konkurs-main-item-award {font-size:30px; line-height:99px; color:#7b766c; font-weight:bold; float:right; width:170px; text-align:center}
+
+.konkurs-main-item-link {font-size:11px; line-height:13px; font-style:italic; padding:8px 0 29px 20px}
+.konkurs-main-item-link a {color:#545454}
+
+.konkurs-main-item-prize {font-size:18px; font-weight:bold; text-align:center; line-height:50px; background:#f1e9d9; color:#2c2c2c}
+
+.konkurs-rules {color:#444; line-height:17px; font-size:14px; padding:3px 0 0 0}
+.konkurs-rules h1 {color:#2c2c2c; font-weight:bold; font-size:36px; line-height:40px; padding:0 0 32px 0}
+.konkurs-rules h2 {color:#2c2c2c; font-weight:bold; font-size:24px; line-height:28px; padding:18px 0}
+.konkurs-rules h3 {color:#444; font-weight:bold; font-size:17px; line-height:20px; padding:0 0 8px 0}
+.konkurs-rules .konkurs-materials+h3 {padding-top:7px}
+div.text-wrapper .konkurs-rules {margin:0; padding:0 0 17px 0}
+div.text-wrapper .konkurs-rules li ul {margin-top:8px}
+div.text-wrapper .konkurs-rules ul {margin-left:30px}
+div.text-wrapper .konkurs-rules ul li {list-style-image:url("../images/konkurs-li.png")}
+.konkurs-rules a {color:#2c2c2c}
+
+.konkurs-materials {width:100%}
+.konkurs-materials:after {content:"."; display:block; clear:both; visibility:hidden; height:0}
+.konkurs-material {float:left; width:365px; padding:0 0 14px 0}
+.konkurs-material:first-child {padding-right:17px}
+.konkurs-material table {width:100%; border-collapse:collapse; margin:0}
+.konkurs-material table td.konkurs-material-img {width:76px; padding:0 14px 0 0; vertical-align:middle; text-align:left}
+.konkurs-material table td.konkurs-material-img img {border:3px solid #f1e9d9}
+
+.konkurs-reglament {padding:0 0 0 21px}
+.konkurs-reglament strong {font-size:17px}
+.konkurs-org {font-size:18px; font-weight:bold; line-height:20px; padding:17px 0 0 0}
+
+.listOfEmployers {overflow:hidden; width:765px}
+.listOfEmployers .profile {float:left; font-size:12px; line-height:21px; margin-left:25px; width:165px}
+.listOfEmployers .profile:first-child {margin-left:0}
+.listOfEmployers .profile img {background:url("../images/profile_photo_shadow.png") no-repeat scroll 0 100% transparent; display:block; margin-bottom:2px; padding-bottom:14px}
+.listOfEmployers .profile b {display:block; font-size:14px; line-height:18px}
+
+.konkurs-form {padding:10px 0 0 0}
+.konkurs-form form {margin:0; padding:0}
+.konkurs-form-row {width:100%; padding:0 0 5px 0}
+.konkurs-form-row:after {content:"."; display:block; clear:both; visibility:hidden; height:0}
+.konkurs-form-label {float:left; width:176px; line-height:16px; color:#444; padding:7px 20px 0 0}
+.konkurs-form-input {float:left}
+.konkurs-form-input input {vertical-align:top; border:1px solid #a5916b; background:#fff; height:18px; font:14px/18px arial, helvetica, sans-serif; color:#545454; padding:5px 12px; width:228px}
+.konkurs-form-input textarea {vertical-align:top; border:1px solid #a5916b; background:#fff; height:54px; font:14px/18px arial, helvetica, sans-serif; color:#545454; padding:5px 12px; width:228px}
+.konkurs-form-input select {width:323px}
+.konkurs-form-radio-wrap {float:left; padding:7px 0 0 0}
+.konkurs-form-radio,
+.konkurs-form-checkbox {float:left; clear:left; font-size:14px; line-height:16px; padding:0 0 0 20px; position:relative; cursor:pointer; margin:0 0 6px 0}
+.konkurs-form-radio span,
+.konkurs-form-checkbox span {position:absolute; left:0; top:2px; width:13px; height:13px; display:block; background:url("../images/konkurs-radio.png"); overflow:hidden}
+.konkurs-form-radio span.checked,
+.konkurs-form-checkbox span.checked {background-position:left -13px}
+.konkurs-form-radio span input,
+.konkurs-form-checkbox span input {position:absolute; left:-99px; top:-99px}
+.konkurs-form-submit {float:left; padding:40px 0 0 0}
+.konkurs-form-submit input {vertical-align:top; width:191px; height:30px; border:none; background:url("../images/konkurs-submit.png"); color:#fff; font:bold 14px/30px arial, helvetica, sans-serif; cursor:pointer; padding:0 0 1px 0; margin:0; outline:none}
+
+.konkurs-form .error {
+	display: none;
+
+	color: #CC0000;
+
+	margin: 5px 0 0;
+	padding: 0 0 10px 201px;
+
+	clear: both;
+}
+
+
+
+#fancybox-left, #fancybox-right {
+  visibility: visible !important;
+}
+#fancybox-left span {
+  right: auto !important;
+  left: 20px !important;
+}
+#fancybox-right span {
+  right: 20px !important;
+  left: auto !important;
+}
+.fancybox-title-inside {
+  font-weight: bold;
+}
+
+
+
+div.fb-like {
+  display: none;
+}
+
+
+
+.konkurs-voices-title {font:bold 14px/16px arial, helvetica, sans-serif; color:#1d1d1b; padding:16px 0 12px 0}
+.konkurs-voices-text {font:11px/13px arial, helvetica, sans-serif; color:#545454; padding:0 0 10px 0}
+.konkurs-voices-img {position:relative; line-height:0; width:100%; margin:0 0 23px 0}
+.konkurs-voices-img:after {content:"."; display:block; clear:both; visibility:hidden; height:0}
+.konkurs-voices-img a {float:left; position:relative; cursor:pointer; border:3px solid #fff; -webkit-box-shadow:-1px 1px 4px rgba(0, 0, 0, .27); -moz-box-shadow:-1px 1px 4px rgba(0, 0, 0, .27); box-shadow:-1px 1px 4px rgba(0, 0, 0, .27); behavior:url("js/PIE.htc.html")}
+.konkurs-voices-img a sup {position:absolute; display:block; width:22px; height:22px; background:url("../images/konkurs-play.png"); margin:-11px 0 0 -11px; left:50%; top:50%}
+
+
+
+.contest-stamp {
+	position: relative;
+}
+.contest-stamp:after {
+	display: block;
+
+	position: absolute;
+	top: 0;
+	left: 50%;
+
+	content: '';
+
+	background: url("../images/contests/stamp.png") no-repeat scroll 0 0 transparent;
+	
+	margin: 0 0 0 -118px;
+
+	width: 236px;
+	height: 236px;
+
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity = 50);
+	filter: alpha(opacity = 50);
+	-moz-opacity: 0.5;
+	-ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(opacity = 50)';
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+}
