@@ -1,0 +1,146 @@
+// 2459
+.pagination li {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  vertical-align: top;
+}
+// 5863
+.popup-body .pagination {
+  margin: 20px 0;
+  text-align: center;
+}
+.popup-body .pagination li {
+  padding: 0;
+  margin: 0;
+}
+.popup-body .pagination li a {
+  color: #000;
+}
+// 5596
+.slider.event-slider.owl-theme .owl-controls {
+  margin-top: 18px;
+}
+
+// to the end
+.partner-modal .popup-body p.main-text {
+  font-size: 16px;
+  font-weight: 400;
+}
+.popup-body ol ul, .popup-body ul ul {
+  padding: 5px 0;
+}
+.popup-body ol ul li,
+.popup-body ul ul li {
+  padding-left: 20px;
+}
+.popup-body ol ul li:before,
+.popup-body ul ul li:before {
+  left: 0;
+  width: 4px;
+  height: 4px;
+  top: 8px;
+}
+
+.rules-table td:first-child {
+  padding-left: 0;
+}
+.rules-table td img {
+  border: 1px solid #d9d2a3;
+  display: block;
+}
+.partner-modal .popup-body .info-small {
+  font-size: 12px;
+}
+p .normal {
+  font-weight: 400;
+}
+
+.short-list-slider {
+  width: 200px;
+  float: left;
+  margin-bottom: 50px;
+}
+.short-list-slider img {
+  border: 1px solid #d9d2a3;
+}
+.short-list-slider .owl-wrapper-outer {
+  margin-bottom: 0;
+}
+.short-list-slider .owl-theme .owl-controls {
+  margin-top: -9px;
+}
+.short-list-slider .owl-theme .owl-controls .owl-buttons .owl-prev {
+  left: -30px;
+  width: 18px;
+  height: 18px;
+  background-position: -282px -338px;
+}
+.short-list-slider .owl-theme .owl-controls .owl-buttons .owl-next {
+  right: -30px;
+  width: 18px;
+  height: 18px;
+  background-position: -300px -338px;
+}
+.short-list-info {
+  width: 327px;
+  float: right;
+  margin-bottom: 50px;
+}
+.short-list-info h5 {
+  margin: 0 0 20px;
+}
+.short-list-info a.normal {
+  color: #171812;
+}
+.short-list-info .sprite {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 300;
+  padding: 0 30px 0 35px;
+  display: inline-block;
+  margin-top: 10px;
+  position: relative;
+}
+.short-list-info .sprite i {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 0;
+  top: 3px;
+  background-image: url("../images/sprite201608301150.png");
+}
+.short-list-info .s-vk2 {
+  background-position: -360px -464px;
+}
+.short-list-info .s-fb2 {
+  background-position: -328px -464px;
+}
+
+
+// dell 
+.pagination:before,
+.pagination:after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+// change
+.slider.event-slider.owl-theme .owl-controls .owl-buttons .owl-prev {
+  left: -20px;
+  background-image: url("../images/sprite201608301150.png");
+  background-position: -400px -168px;
+  width: 12px;
+  height: 14px;
+  display: inline-block;
+}
+.slider.event-slider.owl-theme .owl-controls .owl-buttons .owl-next {
+  right: -20px;
+  background-image: url("../images/sprite201608301150.png");
+  background-position: -400px -184px;
+  width: 12px;
+  height: 14px;
+  display: inline-block;
+}
