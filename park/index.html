@@ -287,13 +287,21 @@
 				</div>
 			</div>
 			<div class="col col-big event-content">
-				<div class="col col-content shedule-text">
-					<div class="col-text">
-						<div class="content-title">
-							Гостевой дом</div>
-						<p>Сдается гостевой дом целиком, с придомовой огороженной территорией 25 соток. гостиная с верандой (2 спальных места), спальня (двуспальная кровать и две односпальных кровати) кухня-столовая с верандой (посуда, микроволновка, газовая плита, кухонный гарнитур, диван - как спальное место) ванная комната - душевая кабина, раковина, унитаз, стиральная машина.</p>
-						<p><a class="btn-small hover fancybox-modal" href="#form-guest-house"><span><span class="s-more"></span>Подробнее</span></a></p>
-					</div>
+				<div class="col col-content col-text">
+					<div class="content-title">
+						Гостевой дом</div>
+					<p>Сдается гостевой дом, с придомовой огороженной территорией. Побыть одному или в кругу семьи, друзей, на природе.</p>
+					<p>Вам будет комфортно и уютно в нашем гостевом доме:</p>
+					<ul class="compact">
+						<li>гостиная с верандой (2 спальных места)</li>
+						<li>спальня (двуспальная кровать и две односпальных кровати)</li>
+						<li>кухня-столовая с верандой (посуда, микроволновка, газовая плита, кухонный гарнитур, диван - как спальное место)</li>
+						<li>ванная комната с душевой кабиной, стиральной машиной, с/у совместный.</li>
+					</ul>
+					<p>
+						<a class="btn-small hover fancybox-modal" href="#form-guest-house"><span><span class="s-more"></span>Подробнее</span></a>
+						<a class="btn-small active fancybox-modal" href="#form-guest-booking"><span><span class="s-booking"></span>Забронировать</span></a>
+					</p>
 					<div style="display: none;">
 						<div class="popup-modal partner-modal" id="form-guest-house" style="width: 815px;">
 							<div class="popup-title">
@@ -358,6 +366,35 @@
 								</div>
 							</div>
 							<div class="popup-title second-title">
+								<p>Забронировать Гостевой дом</p>
+							</div>
+							<div class="popup-body">
+								<div class="window-step-1-form booking-form">
+									<form action="" class="js-form" data-title="Бронирование гостевого дома" method="POST">
+										<input name="subscribe" type="hidden" value="1" />
+										<div class="new-adv-order-form-input">
+											<input name="name" placeholder="Имя и Фамилия" type="text" value="" />
+										</div>
+										<div class="new-adv-order-form-input">
+											<input name="phone" placeholder="Телефон" type="text" value="" />
+										</div>
+										<div class="new-adv-order-form-input">
+											<input name="number-of-guests" placeholder="Число гостей" type="text" value="" />
+										</div>
+										<div class="new-adv-order-form-input">
+											<input name="dates" placeholder="Желаемые даты" type="text" value="" />
+										</div>
+										<div class="new-adv-service-submit">
+											<input class="btn green" type="submit" value="ОТПРАВИТЬ ЗАЯВКУ НА БРОНИРОВАНИЕ" />
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div style="display: none;">
+						<div class="popup-modal partner-modal" id="form-guest-booking" style="width: 815px;">
+							<div class="popup-title">
 								<p>Забронировать Гостевой дом</p>
 							</div>
 							<div class="popup-body">
@@ -915,7 +952,9 @@
 	<div class="info-btn">
 		<a href="#form-subscribe" class="btn-small hover fancybox-modal">получать рассылку</a>
 		<a href="http://www.votchina.ru/news/" class="btn-small active">новости и акции</a>
+		<a href="http://www.votchina.ru/park/" class="btn-small btn green">Гостевой дом</a>
 	</div>
+	<div class="booking-btn"><span class="s-write"></span> Запись на просмотр</div>
 	<div style="display: none;">
 		<div class="popup-modal" id="form--message" style="width: 555px;">
 			<div class="popup-title">
