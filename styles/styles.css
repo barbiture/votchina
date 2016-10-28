@@ -665,9 +665,11 @@ input:checked + .checkbox:before {
   font-weight: 300;
   width: 20%;
   padding: 0 20px;
+  height: 160px;
 }
-.section-footer.col-sm p {
-  margin: 20px 0 0;
+.section-footer.col-sm p,
+.section-footer.col-xs p {
+  margin: 0 0 10px;
 }
 .section-footer.col-xs {
   left: auto;
@@ -676,9 +678,7 @@ input:checked + .checkbox:before {
   font-size: 14px;
   font-weight: 300;
   width: 20%;
-}
-.section-footer.col-xs p {
-  margin: 20px 0 0;
+  height: 160px;
 }
 .section-footer.col-md {
   left: 27%;
@@ -686,6 +686,7 @@ input:checked + .checkbox:before {
   font-size: 14px;
   font-weight: 300;
   width: 30%;
+  height: 160px;
 }
 .row:after {
   content: '';
@@ -2341,6 +2342,7 @@ ol li {
   background: url("../images/for_residents/product.jpg") center top no-repeat;
   text-align: center;
   padding: 11vh 0 5vh;
+  height: 235px;
 }
 .border-link.eco li {
   margin: 19px 0 0 49px;
@@ -2359,6 +2361,7 @@ ol li {
 .help-links {
   padding: 0 0 2vh;
   font-weight: 300;
+  height: 235px;
 }
 .help-links .chat-title {
   line-height: 20px;
@@ -6227,7 +6230,6 @@ p .normal {
   }
   .col-text p {
     font-size: 20px;
-    /*padding-right: 40px;*/
   }
   .col-text .mobile-block {
     position: absolute;
@@ -6305,10 +6307,32 @@ p .normal {
     font-size: 14px;
     padding: 18vh 25px 0;
   }
+  .help-links, .border-link.eco {
+    height: 300px;
+  }
 }
 @media (max-width: 680px) {
   .header .navbar.main-navbar .tel {
     display: none;
+  }
+  .residents .col-menu {
+    width: 100%;
+    height: auto;
+  }
+  .residents .col-menu + .col-menu {
+    padding-top: 0;
+  }
+  .residents .col-menu + .col-menu .col {
+    padding-top: 0;
+  }
+  .residents .col-menu + .col-menu .help-links .chat-title {
+    margin-top: 0;
+  }
+  .help-links, .border-link.eco {
+    height: 185px;
+  }
+  .help-links li {
+    margin: 10px 0 10px 20px;
   }
 }
 @media (max-width: 570px) {
