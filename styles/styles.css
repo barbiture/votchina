@@ -1,5 +1,5 @@
 @import "reset.css";
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:700,600,400,300&subset=latin,cyrillic");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:700,600,400,400i,300&subset=latin,cyrillic");
 .navbar-menu li.active a {
   -webkit-animation: anim-francisco 0.3s forwards;
   animation: anim-francisco 0.3s forwards;
@@ -3208,33 +3208,66 @@ ol li {
   width: 42px;
   height: 42px;
 }
+.regionbox-inner .popup-body {
+  font-size: 14px;
+  padding-top: 0;
+  background: #fff;
+}
 .circle {
   position: relative;
-  width: 70px;
+  width: 68px;
   text-align: center;
   display: inline-block;
   text-transform: none;
+  font-size: 23px;
+  font-weight: 600;
+  color: #fff;
+  margin-left: 20px;
+}
+.circle span {
+  position: relative;
+  z-index: 2;
 }
 .circle:after {
   content: '';
-  width: 66px;
-  height: 66px;
+  width: 68px;
+  height: 68px;
   border-radius: 50%;
-  border: 2px solid #948217;
+  background: #225312;
   position: absolute;
   left: 0;
-  top: -22px;
+  top: -21px;
+  z-index: 1;
+}
+.centered {
+  display: inline-block;
+  text-align: left;
+}
+.centered p {
+  display: inline-block;
+  margin-bottom: 0;
+}
+.genplan-subtitle {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  margin: 25px 0 15px;
 }
 .genplan-table {
-  margin: 20px 0;
+  margin: 10px 0;
 }
-.genplan-table td {
+.popup-body .genplan-table td {
   text-align: left;
-  padding: 2px 10px;
-  vertical-align: top;
+  padding: 10px 20px;
+  vertical-align: middle;
+  border: 1px solid #f5f1d6;
+  width: 50%;
+  color: #4e4e4e;
+  font-weight: 400;
 }
-.genplan-table td:first-child {
-  text-align: right;
+.genplan-table td:first-child,
+.popup-body .genplan-table tr:nth-child(2n+1) td:first-child {
+  background: #fbfaf5;
 }
 .genplan-table td .table-title {
   font-weight: normal;
@@ -3245,6 +3278,165 @@ ol li {
 .genplan-table td .green {
   color: #65ae0e;
 }
+.genplan-table td a {
+  font-style: italic;
+}
+.red-info, .popup-modal a.red-info {
+  color: #ed4a4a;
+}
+.s-red-info {
+  display: inline-block;
+  width: 18px;
+  height: 16px;
+  background: url(../images/sprite.png) -143px -495px;
+  margin-right: 8px;
+  vertical-align: baseline;
+}
+.genplan-photo {
+  float: left;
+  margin-right: 17px;
+  background: #9e8d17;
+  position: relative;
+}
+.genplan-photo img {
+  display: block;
+  max-width: 175px;
+}
+.genplan-photo:hover img {
+  opacity: .5;
+}
+.genplan-photo:hover:after {
+  content: '';
+  background: url(../images/sprite.png) 0 -503px;
+  width: 33px;
+  height: 32px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -16px;
+  pointer-events: none;
+}
+.photo-icon {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  width: 25px;
+  height: 19px;
+  background: url(../images/sprite.png) -167px -492px;
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+  line-height: 19px;
+}
+.genplan_links-block {
+  border-top: 1px solid #d5cd9d;
+  border-bottom: 1px solid #d5cd9d;
+  padding: 25px 0;
+  font-size: 13px;
+  line-height: 16px;
+}
+.genplan_links-block:before, .genplan_links-block:after {
+  content: '';
+  clear: both;
+  display: table;
+}
+.red-checked {
+  padding-left: 45px;
+  position: relative;
+  display: inline-block;
+}
+.red-checked:before {
+  content: '';
+  background: url(../images/sprite.png) -197px -488px;
+  width: 22px;
+  height: 23px;
+  position: absolute;
+  left: 13px;
+  top: 50%;
+  margin-top: -11px;
+}
+.popup-modal a.calc-mortgage {
+  padding-left: 72px;
+  position: relative;
+  display: inline-block;
+  color: #000;
+}
+.calc-mortgage:before {
+  content: '';
+  background: url(../images/sprite.png) -238px -397px;
+  width: 23px;
+  height: 23px;
+  position: absolute;
+  left: 40px;
+  top: 50%;
+  margin-top: -11px;
+}
+.popup-modal a.calc-installments {
+  padding-left: 38px;
+  position: relative;
+  display: inline-block;
+  color: #000;
+}
+.calc-installments:before {
+  content: '';
+  background: url(../images/sprite.png) -343px -397px;
+  width: 26px;
+  height: 25px;
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  margin-top: -12px;
+}
+.genplan_links-block .up-text {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 10px 0 20px;
+}
+.genplan_links-block label {
+  font-size: 13px;
+}
+.genplan_links-block input[type="checkbox"] + label:before {
+  margin-top: 0;
+  top: 2px;
+}
+.center-button {
+  float: none;
+  font-size: 14px;
+  padding: 15px;
+  width: 200px;
+  margin: 30px auto;
+  display: block;
+}
+.genplan-form p span {
+  font-weight: 400;
+}
+.genplan-form .window-step-1-form {
+  border-top: 1px solid #d5cd9d;
+  margin-top: 35px;
+  padding: 25px 90px;
+}
+.genplan-form .window-step-1-form p {
+  margin-bottom: 30px;
+}
+.genplan-form .new-adv-order-form-input input {
+  text-indent: 10px;
+}
+.genplan-form .center-button {
+  width: 100%;
+  margin: 20px 0;
+}
+.back-form {
+  width: 42px;
+  height: 42px;
+  background: url(../images/sprite.png) -48px -503px;
+  position: absolute;
+  left: 27px;
+  top: 27px;
+}
+// .back-form:hover {
+//   background-position: -126px -296px;
+// }
 .photo-section {
   margin-left: 289px;
   height: 100%;
@@ -3578,12 +3770,12 @@ ol li {
   margin: 0;
 }
 .regionbox-wrap .regionbox-prev span {
-  right: 10px;
-  left: auto;
+  right: auto;
+  left: 0;
 }
 .regionbox-wrap .regionbox-next span {
-  right: auto;
-  left: 10px;
+  right: 0;
+  left: auto;
 }
 .fancybox-wrap.full-modal {
   top: 100px !important;
@@ -3672,6 +3864,11 @@ ol li {
   font-weight: 300;
   font-size: 14px;
 }
+.popup-subtitle {
+  line-height: 24px;
+  padding: 0 15px 15px;
+  display: block;
+}
 .popup-body,
 .popup-title.popup-title--footnote span {
   position: relative;
@@ -3705,10 +3902,12 @@ ol li {
 }
 .regionbox-wrap .popup-title a {
   padding-right: 10px;
+  font-style: italic;
 }
 .popup-modal .fancybox-skin,
 .popup-modal .regionbox-skin {
   border-radius: 0;
+  background: #fff;
 }
 .popup-modal .fancybox-close,
 .popup-modal .regionbox-close {
@@ -3786,7 +3985,7 @@ ol li {
   color: #000;
   font-size: 14px;
   line-height: 42px;
-  width: 50%;
+  width: auto;
   height: 62px;
 }
 .popup-modal .fancybox-next,
@@ -3797,14 +3996,16 @@ ol li {
 .popup-modal .regionbox-nav.regionbox-prev {
   right: auto;
   left: 0;
-  padding-right: 62px;
-  text-align: right;
+  padding-left: 51px;
+  margin-left: 100px;
 }
 .popup-modal .regionbox-nav.regionbox-next {
   right: 0;
   left: auto;
-  padding-left: 62px;
-  text-align: left;
+  float: right;
+  padding-right: 51px;
+  text-align: right;
+  margin-right: 100px;
 }
 .popup-body {
   padding: 10px 100px 25px;
