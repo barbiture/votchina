@@ -1689,6 +1689,13 @@ The `.sprites` mixin generates identical output to the CSS template
   height: 10px;
   display: inline-block;
 }
+.s-comfort {
+  background-image: url("../images/s-comfort.png");
+  width: 149px;
+  height: 98px;
+  display: inline-block;
+  margin-top: -38px;
+}
 .owl-theme {
   height: 100%;
 }
@@ -6218,6 +6225,9 @@ p .normal {
     left: 0;
     right: 0;
   }
+  .info-btn .btn {
+    padding: 10px;
+  }
 }
 @media (max-width: 1160px) {
   .col-text p {
@@ -6270,6 +6280,13 @@ p .normal {
   .event-item a {
     padding: 10% 5px;
     font-size: 14px;
+  }
+  .pref-wrap .s-comfort {
+    background-size: 100% auto;
+    width: 100px;
+    height: 66px;
+    display: inline-block;
+    margin-top: -6px;
   }
 }
 @media (max-height: 785px) {
