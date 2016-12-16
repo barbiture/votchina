@@ -283,6 +283,9 @@ b {
 .t-center {
   text-align: center;
 }
+.regionbox-inner .t-center {
+  line-height: 18px;
+}
 .clearfix {
   clear: both;
 }
@@ -312,7 +315,7 @@ b {
   box-shadow: -5px -3px 5px 0 rgba(0, 0, 0, 0.3);
   margin-top: 0;
 }
-/* 
+/*
 .quest-btn {
   display: none;
   position: fixed;
@@ -432,6 +435,9 @@ input[type="radio"] + .radiobox:before {
 }
 .checkbox.checkbox--error {
   color: #c00;
+}
+.js-form-subscribe .new-adv-order-form-checkbox {
+  margin-bottom: 15px;
 }
 .new-adv-order-form-checkbox .checkbox {
   padding-left: 25px;
@@ -612,7 +618,7 @@ input:checked + .checkbox:before {
   clear: both;
 }
 .section p {
-  line-height: 1.5;
+  line-height: 1.7;
 }
 .section-footer {
   position: absolute;
@@ -817,7 +823,7 @@ input:checked + .checkbox:before {
   background: #948217;
   border-color: #948217;
 }
-.btn.green.fancybox-modal--disabled {
+.fancybox-modal--disabled {
   opacity: .5;
 }
 .btn-small {
@@ -2464,6 +2470,7 @@ ol li {
 }
 .content-title {
   font-size: 22px;
+  line-height: 28px;
   font-weight: 300;
   margin-bottom: 25px;
 }
@@ -2963,6 +2970,13 @@ ol li {
   width: 33.3%;
   position: relative;
 }
+.regionbox-inner .genplan_links-block .col-3:first-child,
+.regionbox-inner .genplan_links-block .col-3:last-child {
+  width: 36%;
+}
+.regionbox-inner .genplan_links-block .col-3:nth-child(2) {
+  width: 28%;
+}
 .row-3 {
   height: 20%;
 }
@@ -3299,6 +3313,9 @@ ol li {
   margin-right: 8px;
   vertical-align: baseline;
 }
+.regionbox-inner .s-red-info {
+  vertical-align: -2px;
+}
 .genplan-photo {
   float: left;
   margin-right: 17px;
@@ -3348,7 +3365,7 @@ ol li {
   display: table;
 }
 .red-checked {
-  padding-left: 45px;
+  padding-left: 42px;
   position: relative;
   display: inline-block;
 }
@@ -3358,12 +3375,12 @@ ol li {
   width: 22px;
   height: 23px;
   position: absolute;
-  left: 13px;
+  left: 10px;
   top: 50%;
   margin-top: -11px;
 }
 .popup-modal a.calc-mortgage {
-  padding-left: 72px;
+  padding-left: 47px;
   position: relative;
   display: inline-block;
   color: #000;
@@ -3374,12 +3391,12 @@ ol li {
   width: 23px;
   height: 23px;
   position: absolute;
-  left: 40px;
+  left: 14px;
   top: 50%;
   margin-top: -11px;
 }
 .popup-modal a.calc-installments {
-  padding-left: 38px;
+  padding-left: 46px;
   position: relative;
   display: inline-block;
   color: #000;
@@ -3390,7 +3407,7 @@ ol li {
   width: 26px;
   height: 25px;
   position: absolute;
-  left: 5px;
+  left: 10px;
   top: 50%;
   margin-top: -12px;
 }
@@ -3429,6 +3446,11 @@ ol li {
 .genplan-form .new-adv-order-form-input input {
   text-indent: 10px;
 }
+.genplan-form .new-adv-order-form-textarea textarea {
+  padding-right: 10px;
+  padding-left: 10px;
+  width: calc(100% - 20px);
+}
 .genplan-form .center-button {
   width: 100%;
   margin: 20px 0;
@@ -3441,9 +3463,6 @@ ol li {
   left: 27px;
   top: 27px;
 }
-// .back-form:hover {
-//   background-position: -126px -296px;
-// }
 .photo-section {
   margin-left: 289px;
   height: 100%;
@@ -4016,9 +4035,15 @@ ol li {
 }
 .popup-body {
   padding: 10px 100px 25px;
-  background: #f9f9f9;
+  background: #fff;
   clear: both;
 }
+/*
+#pick-up-land .popup-body,
+#pick-up-land-form .popup-body {
+  background-color: transparent;
+}
+*/
 .popup-body.form-subscribe {
   background: none;
   padding: 0;
@@ -6081,6 +6106,62 @@ p .normal {
 }
 .booking-btn:hover .s-write {
   background-position: -392px -488px;
+}
+
+.hashtag {
+  color: #948217;
+  font-weight: 600;
+}
+
+.question {
+  background: #343e14;
+  max-width: 380px;
+  padding: 15px 30px 30px;
+  color: #fff;
+  position: relative;
+  border-radius: 20px;
+  margin: 25px 0 50px;
+}
+.col-big.blur-content .question {
+  margin: 25px 0 50px;
+}
+.question:after {
+  content: '';
+  position: absolute;
+  top: 27px;
+  right: -23px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 26px 23px 0 0;
+  border-color: #343e14 transparent transparent transparent;
+}
+.question p {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.col-big.blur-content .question p {
+  margin-bottom: 10px;
+}
+.question span {
+  font-weight: 300;
+}
+.question a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+.question a.dashed {
+  border-bottom: 1px dashed;
+}
+
+.footer-padding {
+  margin-bottom: 4vh;
+  height: 110px;
+  width: 1px;
 }
 
 @media (max-width: 1330px) {
