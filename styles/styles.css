@@ -210,7 +210,7 @@ input[type="checkbox"] + label {
 }
 input[type="checkbox"] + label:before {
   content: '';
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -395px -50px;
   width: 16px;
   height: 16px;
@@ -339,7 +339,7 @@ b {
 }
 .quest-btn .btn-small:before {
   content: '';
-  background: url("../images/quest/questL.png");
+  background: url("http://www.votchina.ru/images/quest/questL.png");
   width: 43px;
   height: 16px;
   position: absolute;
@@ -351,7 +351,7 @@ b {
 }
 .quest-btn .btn-small:after {
   content: '';
-  background: url("../images/quest/questL.png");
+  background: url("http://www.votchina.ru/images/quest/questL.png");
   width: 43px;
   height: 16px;
   position: absolute;
@@ -368,7 +368,7 @@ b {
   right: 0;
   top: 50%;
 
-  background: url("../images/banner-20161003-adaptive.png") no-repeat scroll 0 0 transparent;
+  background: url("http://www.votchina.ru/images/banner-20161220-adaptive.png") no-repeat scroll 0 0 transparent;
 
   margin: -238px 0 0 !important;
   padding: 0;
@@ -444,7 +444,7 @@ input[type="radio"] + .radiobox:before {
 }
 .checkbox:before {
   content: '';
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -395px -50px;
   width: 16px;
   height: 16px;
@@ -455,7 +455,7 @@ input[type="radio"] + .radiobox:before {
   position: absolute;
 }
 input:checked + .checkbox:before {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -395px -66px;
   width: 16px;
   height: 16px;
@@ -728,7 +728,7 @@ input:checked + .checkbox:before {
   position: absolute;
   left: 0;
   top: 0;
-  background: url("../images/blur.png") center top repeat-x;
+  background: url("http://www.votchina.ru/images/blur.png") center top repeat-x;
   opacity: .88;
 }
 .col-img .owl-carousel .owl-wrapper-outer {
@@ -780,7 +780,7 @@ input:checked + .checkbox:before {
   display: none;
 }
 .home {
-  background: url("../images/header-blur.png") center top repeat-x, url("../images/main-bg-20161116.jpg") center top no-repeat;
+  background: url("http://www.votchina.ru/images/header-blur.png?201612231515") center top repeat-x, url("http://www.votchina.ru/images/main-bg-20161116.jpg?201612231515") center top no-repeat;
   background-size: auto, cover;
   text-align: center;
   padding: 100px 35px 0;
@@ -984,7 +984,7 @@ At the bottom of this section, we provide information about the spritesheet itse
 @spritesheet: width height image @spritesheet-sprites;
 */
 /*
-@spritesheet: 411px 393px '../images/sprite.png' @spritesheet-sprites;
+@spritesheet: 411px 393px 'http://www.votchina.ru/images/sprite201611281736.png' @spritesheet-sprites;
 */
 /*
 The provided classes are intended to be used with the array-like variables
@@ -1003,462 +1003,462 @@ The `.sprites` mixin generates identical output to the CSS template
 .sprites(@spritesheet-sprites);
 */
 .s-aroow-l {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -395px 0px;
   width: 16px;
   height: 25px;
   display: inline-block;
 }
 .s-aroow-r {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -395px -25px;
   width: 16px;
   height: 25px;
   display: inline-block;
 }
 .s-binoculars {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -355px -318px;
   width: 31px;
   height: 19px;
   display: inline-block;
 }
 .s-binocularsW {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -192px -464px;
   width: 32px;
   height: 19px;
   display: inline-block;
 }
 .s-calcW {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -179px -159px;
   width: 20px;
   height: 28px;
   display: inline-block;
 }
 .s-check {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -84px -296px;
   width: 42px;
   height: 42px;
   display: inline-block;
 }
 .s-checkbox {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -395px -50px;
   width: 16px;
   height: 16px;
   display: inline-block;
 }
 .s-checked {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -395px -66px;
   width: 16px;
   height: 16px;
   display: inline-block;
 }
 .s-circle-scroll {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: 0px 0px;
   width: 106px;
   height: 106px;
   display: inline-block;
 }
 .s-cow {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -201px 0px;
   width: 59px;
   height: 56px;
   display: inline-block;
 }
 .s-family {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -260px 0px;
   width: 56px;
   height: 49px;
   display: inline-block;
 }
 .s-fb {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -355px -118px;
   width: 39px;
   height: 39px;
   display: inline-block;
 }
 .s-guard {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: 0px -201px;
   width: 62px;
   height: 47px;
   display: inline-block;
 }
 .s-home {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -337px -338px;
   width: 17px;
   height: 17px;
   display: inline-block;
 }
 .s-inet {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -201px -111px;
   width: 53px;
   height: 52px;
   display: inline-block;
 }
 .s-insta {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -355px -157px;
   width: 39px;
   height: 39px;
   display: inline-block;
 }
 .s-land {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -260px -104px;
   width: 51px;
   height: 49px;
   display: inline-block;
 }
 .s-pay-icon2 {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -94px -248px;
   width: 47px;
   height: 47px;
   display: inline-block;
 }
 .s-pay-icon3 {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -47px -248px;
   width: 47px;
   height: 47px;
   display: inline-block;
 }
 .s-percent {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: 0px -248px;
   width: 47px;
   height: 48px;
   display: inline-block;
 }
 .s-question {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -263px -338px;
   width: 19px;
   height: 18px;
   display: inline-block;
 }
 .s-scroll {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -316px -239px;
   width: 24px;
   height: 36px;
   display: inline-block;
 }
 .s-scroll-down {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -330px -296px;
   width: 23px;
   height: 34px;
   display: inline-block;
 }
 .s-services {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -95px -106px;
   width: 63px;
   height: 53px;
   display: inline-block;
 }
 .s-tw {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -355px -40px;
   width: 39px;
   height: 39px;
   display: inline-block;
 }
 .s-vk {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -355px -79px;
   width: 39px;
   height: 39px;
   display: inline-block;
 }
 .s-water {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -260px -153px;
   width: 54px;
   height: 46px;
   display: inline-block;
 }
 .s-price {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -201px -56px;
   width: 55px;
   height: 55px;
   display: inline-block;
 }
 .s-taxes {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -260px -49px;
   width: 48px;
   height: 55px;
   display: inline-block;
 }
 .s-transport {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -158px -201px;
   width: 49px;
   height: 43px;
   display: inline-block;
 }
 .s-close {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -187px -248px;
   width: 44px;
   height: 44px;
   display: inline-block;
 }
 .s-left {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -126px -296px;
   width: 42px;
   height: 42px;
   display: inline-block;
 }
 .s-right {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -42px -296px;
   width: 42px;
   height: 42px;
   display: inline-block;
 }
 .s-document {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -80px -338px;
   width: 27px;
   height: 24px;
   display: inline-block;
 }
 .s-calc {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -316px -137px;
   width: 28px;
   height: 41px;
   display: inline-block;
 }
 .s-quest {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: 0px -338px;
   width: 27px;
   height: 27px;
   display: inline-block;
 }
 .s-review {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -27px -338px;
   width: 26px;
   height: 26px;
   display: inline-block;
 }
 .s-pagin-l {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -282px -338px;
   width: 18px;
   height: 18px;
   display: inline-block;
 }
 .s-pagin-r {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -300px -338px;
   width: 18px;
   height: 18px;
   display: inline-block;
 }
 .s-bell {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -179px -338px;
   width: 22px;
   height: 23px;
   display: inline-block;
 }
 .s-calendar {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -156px -338px;
   width: 23px;
   height: 23px;
   display: inline-block;
 }
 .s-arhive {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -395px -82px;
   width: 15px;
   height: 15px;
   display: inline-block;
 }
 .s-map {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -25px -365px;
   width: 23px;
   height: 24px;
   display: inline-block;
 }
 .s-book {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -201px -163px;
   width: 49px;
   height: 38px;
   display: inline-block;
 }
 .s-chicken {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -355px -272px;
   width: 31px;
   height: 46px;
   display: inline-block;
 }
 .s-alley {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -158px -106px;
   width: 39px;
   height: 51px;
   display: inline-block;
 }
 .s-game {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -316px -48px;
   width: 37px;
   height: 50px;
   display: inline-block;
 }
 .s-holy {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -316px 0px;
   width: 39px;
   height: 48px;
   display: inline-block;
 }
 .s-rill {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -111px -201px;
   width: 47px;
   height: 46px;
   display: inline-block;
 }
 .s-teatre {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -62px -201px;
   width: 49px;
   height: 46px;
   display: inline-block;
 }
 .s-eco {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -260px -199px;
   width: 53px;
   height: 46px;
   display: inline-block;
 }
 .s-sport {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -107px -338px;
   width: 24px;
   height: 24px;
   display: inline-block;
 }
 .s-clip {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -201px -338px;
   width: 22px;
   height: 23px;
   display: inline-block;
 }
 .s-fence {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -223px -338px;
   width: 21px;
   height: 21px;
   display: inline-block;
 }
 .s-fence-big {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -207px -201px;
   width: 43px;
   height: 43px;
   display: inline-block;
 }
 .s-color_fence {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -316px -275px;
   width: 25px;
   height: 20px;
   display: inline-block;
 }
 .s-color_home {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -53px -338px;
   width: 27px;
   height: 25px;
   display: inline-block;
 }
 .s-pipe {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: 0px -365px;
   width: 25px;
   height: 28px;
   display: inline-block;
 }
 .s-road {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -131px -338px;
   width: 25px;
   height: 23px;
   display: inline-block;
 }
 .s-sights {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -318px -338px;
   width: 19px;
   height: 17px;
   display: inline-block;
 }
 .s-sightsW {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -273px -248px;
   width: 42px;
   height: 42px;
   display: inline-block;
 }
 .s-scheme {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -244px -338px;
   width: 19px;
   height: 19px;
   display: inline-block;
 }
 .s-schemeW {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -137px -159px;
   width: 42px;
   height: 42px;
   display: inline-block;
 }
 .s-down {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -95px -159px;
   width: 42px;
   height: 42px;
   display: inline-block;
 }
 .s-up {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -168px -296px;
   width: 42px;
   height: 42px;
   display: inline-block;
 }
 .s-sum-down {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -402px -110px;
   width: 7px;
   height: 6px;
@@ -1466,7 +1466,7 @@ The `.sprites` mixin generates identical output to the CSS template
   vertical-align: bottom;
 }
 .s-sum-up {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -395px -110px;
   width: 7px;
   height: 6px;
@@ -1474,140 +1474,140 @@ The `.sprites` mixin generates identical output to the CSS template
   vertical-align: top;
 }
 .s-arch {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -231px -248px;
   width: 42px;
   height: 43px;
   display: inline-block;
 }
 .s-summer {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -355px -234px;
   width: 38px;
   height: 38px;
   display: inline-block;
 }
 .s-village {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -141px -248px;
   width: 46px;
   height: 44px;
   display: inline-block;
 }
 .s-winter {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -355px -196px;
   width: 38px;
   height: 38px;
   display: inline-block;
 }
 .s-beauty {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -316px -98px;
   width: 33px;
   height: 39px;
   display: inline-block;
 }
 .s-creativity {
-  background-image: url("../images/sprite--s-creativity.png");
+  background-image: url("http://www.votchina.ru/images/sprite--s-creativity.png");
   background-position: 0 0;
   width: 39px;
   height: 40px;
   display: inline-block;
 }
 .s-ecology {
-  background-image: url("../images/sprite--s-ecology.png");
+  background-image: url("http://www.votchina.ru/images/sprite--s-ecology.png");
   background-position: 0 0;
   width: 34px;
   height: 45px;
   display: inline-block;
 }
 .s-healthy {
-  background-image: url("../images/sprite--s-healthy.png");
+  background-image: url("http://www.votchina.ru/images/sprite--s-healthy.png");
   background-position: 0 0;
   width: 42px;
   height: 39px;
   display: inline-block;
 }
 .s-neighbor {
-  background-image: url("../images/sprite--s-neighbor.png");
+  background-image: url("http://www.votchina.ru/images/sprite--s-neighbor.png");
   background-position: 0 0;
   width: 46px;
   height: 30px;
   display: inline-block;
 }
 .s-service {
-  background-image: url("../images/sprite--s-service.png");
+  background-image: url("http://www.votchina.ru/images/sprite--s-service.png");
   background-position: 0 0;
   width: 42px;
   height: 42px;
   display: inline-block;
 }
 .s-sport--gallery {
-  background-image: url("../images/sprite--s-sport.png");
+  background-image: url("http://www.votchina.ru/images/sprite--s-sport.png");
   background-position: 0 0;
   width: 45px;
   height: 40px;
   display: inline-block;
 }
 .s-view {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -316px -178px;
   width: 37px;
   height: 29px;
   display: inline-block;
 }
 .s-left-sm {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -395px -97px;
   width: 8px;
   height: 13px;
   display: inline-block;
 }
 .s-right-sm {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -403px -97px;
   width: 8px;
   height: 13px;
   display: inline-block;
 }
 .s-plan {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -210px -296px;
   width: 40px;
   height: 41px;
   display: inline-block;
 }
 .s-pay {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -355px 0px;
   width: 40px;
   height: 40px;
   display: inline-block;
 }
 .s-calculate {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -290px -296px;
   width: 40px;
   height: 40px;
   display: inline-block;
 }
 .s-priceList {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -250px -296px;
   width: 40px;
   height: 40px;
   display: inline-block;
 }
 .s-zoomOut {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -106px 0px;
   width: 95px;
   height: 95px;
   display: inline-block;
 }
 .s-zoomIn {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: 0px -106px;
   width: 95px;
   height: 95px;
@@ -1619,35 +1619,35 @@ The `.sprites` mixin generates identical output to the CSS template
   opacity: .5;
 }
 .s-closeB {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: 0px -296px;
   width: 42px;
   height: 42px;
   display: inline-block;
 }
 .s-xls {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -316px -207px;
   width: 27px;
   height: 32px;
   display: inline-block;
 }
 .s-rent {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -116px -365px;
   width: 55px;
   height: 37px;
   display: inline-block;
 }
 .s-shop {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -176px -365px;
   width: 57px;
   height: 49px;
   display: inline-block;
 }
 .s-date {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -264px -365px;
   width: 28px;
   height: 31px;
@@ -1658,7 +1658,7 @@ The `.sprites` mixin generates identical output to the CSS template
   opacity: .25;
 }
 .s-questionM {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -296px -365px;
   width: 39px;
   height: 37px;
@@ -1671,7 +1671,7 @@ The `.sprites` mixin generates identical output to the CSS template
 */
 }
 .s-trigger {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -344px -365px;
   width: 30px;
   height: 24px;
@@ -1682,21 +1682,21 @@ The `.sprites` mixin generates identical output to the CSS template
   top: 35px;
 }
 .s-guest {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -232px -464px;
   width: 47px;
   height: 47px;
   display: inline-block;
 }
 .s-more {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -288px -464px;
   width: 32px;
   height: 10px;
   display: inline-block;
 }
 .s-comfort {
-  background-image: url("../images/s-comfort.png");
+  background-image: url("http://www.votchina.ru/images/s-comfort.png");
   width: 149px;
   height: 98px;
   display: inline-block;
@@ -1719,7 +1719,7 @@ The `.sprites` mixin generates identical output to the CSS template
   position: absolute;
 }
 .owl-theme .owl-controls .owl-buttons .owl-prev {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -395px 0px;
   width: 16px;
   height: 25px;
@@ -1727,7 +1727,7 @@ The `.sprites` mixin generates identical output to the CSS template
   left: 30px;
 }
 .owl-theme .owl-controls .owl-buttons .owl-next {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -395px -25px;
   width: 16px;
   height: 25px;
@@ -1821,7 +1821,7 @@ The `.sprites` mixin generates identical output to the CSS template
   margin-top: -6px;
 }
 .photo-aside .owl-theme .owl-controls .owl-buttons .owl-prev {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -395px -97px;
   width: 8px;
   height: 13px;
@@ -1829,7 +1829,7 @@ The `.sprites` mixin generates identical output to the CSS template
   left: 15px;
 }
 .photo-aside .owl-theme .owl-controls .owl-buttons .owl-next {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -403px -97px;
   width: 8px;
   height: 13px;
@@ -1883,7 +1883,7 @@ The `.sprites` mixin generates identical output to the CSS template
   margin-top: -21px;
 }
 .photo-section .owl-controls .owl-buttons .owl-prev {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -126px -296px;
   width: 42px;
   height: 42px;
@@ -1891,7 +1891,7 @@ The `.sprites` mixin generates identical output to the CSS template
   left: 35px;
 }
 .photo-section .owl-controls .owl-buttons .owl-next {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -42px -296px;
   width: 42px;
   height: 42px;
@@ -1900,7 +1900,7 @@ The `.sprites` mixin generates identical output to the CSS template
 }
 .photo-section .load-more {
   display: none;
-  background: #277ddc url("../images/load-more.png") repeat scroll 0 0;
+  background: #277ddc url("http://www.votchina.ru/images/load-more.png") repeat scroll 0 0;
   color: #eef0e2;
   font-size: 15px;
   font-weight: bold;
@@ -1913,7 +1913,7 @@ The `.sprites` mixin generates identical output to the CSS template
   text-align: center;
 }
 .photo-section .load-more.loading {
-  background: url("../images/loading38.gif") no-repeat scroll center center transparent;
+  background: url("http://www.votchina.ru/images/loading38.gif") no-repeat scroll center center transparent;
   color: transparent;
   cursor: default;
 }
@@ -2082,7 +2082,7 @@ The `.sprites` mixin generates identical output to the CSS template
   margin-top: -20px;
 }
 .s-squere {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -49px -365px;
   width: 15px;
   height: 15px;
@@ -2090,7 +2090,7 @@ The `.sprites` mixin generates identical output to the CSS template
   margin-top: -7px;
 }
 .s-viewplan {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -81px -380px;
   width: 21px;
   height: 18px;
@@ -2098,7 +2098,7 @@ The `.sprites` mixin generates identical output to the CSS template
   margin-top: -9px;
 }
 .s-calc-small {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -240px -365px;
   width: 14px;
   height: 20px;
@@ -2107,7 +2107,7 @@ The `.sprites` mixin generates identical output to the CSS template
 }
 .submenu {
   height: 18vh;
-  background: url("../images/for_residents/submenu.jpg") center no-repeat;
+  background: url("http://www.votchina.ru/images/for_residents/submenu.jpg") center no-repeat;
   background-size: cover;
   position: absolute;
   left: 0;
@@ -2157,16 +2157,16 @@ The `.sprites` mixin generates identical output to the CSS template
   letter-spacing: .01em;
 }
 .submenu.sub-news {
-  background-image: url("../images/for_residents/subnews.jpg");
+  background-image: url("http://www.votchina.ru/images/for_residents/subnews.jpg");
 }
 .submenu.sub-event {
-  background-image: url("../images/for_residents/subevent.jpg");
+  background-image: url("http://www.votchina.ru/images/for_residents/subevent.jpg");
 }
 .submenu.sub-structure {
-  background-image: url("../images/for_residents/substructure.jpg");
+  background-image: url("http://www.votchina.ru/images/for_residents/substructure.jpg");
 }
 .submenu.sub-services {
-  background-image: url("../images/for_residents/subservices.jpg");
+  background-image: url("http://www.votchina.ru/images/for_residents/subservices.jpg");
 }
 .col-content {
   overflow-y: auto;
@@ -2393,7 +2393,7 @@ ol li {
   margin-top: -13px;
 }
 .border-link.calc {
-  background: url("../images/round_table/calc.jpg") center top no-repeat;
+  background: url("http://www.votchina.ru/images/round_table/calc.jpg") center top no-repeat;
   text-align: center;
   padding: 11vh 0 5vh;
 }
@@ -2413,7 +2413,7 @@ ol li {
   margin: 0 auto;
 }
 .border-link.eco {
-  background: url("../images/for_residents/product.jpg") center top no-repeat;
+  background: url("http://www.votchina.ru/images/for_residents/product.jpg") center top no-repeat;
   text-align: center;
   padding: 11vh 0 5vh;
   height: 235px;
@@ -2786,7 +2786,7 @@ ol li {
 }
 .video-wrap:after {
   content: '';
-  background: url("../images/video-wrap.png");
+  background: url("http://www.votchina.ru/images/video-wrap.png");
   width: 41px;
   height: 31px;
   position: absolute;
@@ -3027,14 +3027,14 @@ ol li {
   top: 25px;
   right: 10px;
   cursor: pointer;
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -95px -159px;
   width: 42px;
   height: 42px;
   display: inline-block;
 }
 .whereBlock .switch.up {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -168px -296px;
   width: 42px;
   height: 42px;
@@ -3058,7 +3058,7 @@ ol li {
 }
 .whereBlock .description {
   text-align: left;
-  background: transparent url("../images/map_graph.png") no-repeat scroll 50% 0px;
+  background: transparent url("http://www.votchina.ru/images/map_graph.png") no-repeat scroll 50% 0px;
   padding: 145px 0 0;
   margin: 0px auto;
   line-height: 20px;
@@ -3201,7 +3201,7 @@ ol li {
   padding-right: 85px;
 }
 .plan-modal.popup-modal #regionbox-left-ico {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -126px -296px;
   width: 42px;
   height: 42px;
@@ -3211,7 +3211,7 @@ ol li {
   margin-top: 0;
 }
 .plan-modal.popup-modal #regionbox-right-ico {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -42px -296px;
   width: 42px;
   height: 42px;
@@ -3224,7 +3224,7 @@ ol li {
 .plan-modal.popup-modal #regionbox-close {
   right: 25px;
   top: 25px;
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: 0px -296px;
   width: 42px;
   height: 42px;
@@ -3309,7 +3309,7 @@ ol li {
   display: inline-block;
   width: 18px;
   height: 16px;
-  background: url(../images/sprite.png) -143px -495px;
+  background: url(http://www.votchina.ru/images/sprite201611281736.png) -143px -495px;
   margin-right: 8px;
   vertical-align: baseline;
 }
@@ -3331,7 +3331,7 @@ ol li {
 }
 .genplan-photo:hover:after {
   content: '';
-  background: url(../images/sprite.png) 0 -503px;
+  background: url(http://www.votchina.ru/images/sprite201611281736.png) 0 -503px;
   width: 33px;
   height: 32px;
   position: absolute;
@@ -3346,7 +3346,7 @@ ol li {
   bottom: 10px;
   width: 25px;
   height: 19px;
-  background: url(../images/sprite.png) -167px -492px;
+  background: url(http://www.votchina.ru/images/sprite201611281736.png) -167px -492px;
   text-align: center;
   color: #fff;
   font-size: 12px;
@@ -3371,7 +3371,7 @@ ol li {
 }
 .red-checked:before {
   content: '';
-  background: url(../images/sprite.png) -197px -488px;
+  background: url(http://www.votchina.ru/images/sprite201611281736.png) -197px -488px;
   width: 22px;
   height: 23px;
   position: absolute;
@@ -3387,7 +3387,7 @@ ol li {
 }
 .calc-mortgage:before {
   content: '';
-  background: url(../images/sprite.png) -238px -397px;
+  background: url(http://www.votchina.ru/images/sprite201611281736.png) -238px -397px;
   width: 23px;
   height: 23px;
   position: absolute;
@@ -3403,7 +3403,7 @@ ol li {
 }
 .calc-installments:before {
   content: '';
-  background: url(../images/sprite.png) -343px -397px;
+  background: url(http://www.votchina.ru/images/sprite201611281736.png) -343px -397px;
   width: 26px;
   height: 25px;
   position: absolute;
@@ -3458,7 +3458,7 @@ ol li {
 .back-form {
   width: 42px;
   height: 42px;
-  background: url(../images/sprite.png) -48px -503px;
+  background: url(http://www.votchina.ru/images/sprite201611281736.png) -48px -503px;
   position: absolute;
   left: 27px;
   top: 27px;
@@ -3582,7 +3582,7 @@ ol li {
 }
 .col-contact .download:before {
   content: '';
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -357px -338px;
   width: 16px;
   height: 15px;
@@ -3712,7 +3712,7 @@ ol li {
   height: 270px;
 }
 .s-bus {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -390px -272px;
   width: 21px;
   height: 26px;
@@ -3720,14 +3720,14 @@ ol li {
   margin-top: 1px;
 }
 .s-personal {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -377px -366px;
   width: 34px;
   height: 29px;
   display: inline-block;
 }
 .s-auto {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -388px -304px;
   width: 23px;
   height: 20px;
@@ -3735,7 +3735,7 @@ ol li {
   margin-top: 5px;
 }
 .s-serv {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -2px -402px;
   width: 25px;
   height: 27px;
@@ -3750,7 +3750,7 @@ ol li {
   max-height: 100%;
 }
 #fancybox-wrap #fancybox-close {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: 0px -296px;
   width: 42px;
   height: 42px;
@@ -3763,7 +3763,7 @@ ol li {
 }
 .fancybox-wrap .fancybox-close,
 .regionbox-wrap .regionbox-close {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -187px -248px;
   width: 44px;
   height: 44px;
@@ -3774,7 +3774,7 @@ ol li {
 }
 .fancybox-wrap .fancybox-nav span,
 .regionbox-wrap .regionbox-nav span {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   display: inline-block;
   width: 42px;
   height: 42px;
@@ -3830,7 +3830,7 @@ ol li {
 }
 #fancybox-loading div,
 #regionbox-loading div {
-  background: url("../images/fancybox_loading.gif") center center no-repeat !important;
+  background: url("http://www.votchina.ru/images/fancybox_loading.gif") center center no-repeat !important;
 }
 .pref-modal {
   padding: 0 15%;
@@ -3937,7 +3937,7 @@ ol li {
 }
 .popup-modal .fancybox-close,
 .popup-modal .regionbox-close {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: 0px -296px;
   width: 42px;
   height: 42px;
@@ -4156,7 +4156,7 @@ ol li {
   margin: 0 0 35px 58px;
 }
 .popup-body .stylish li:before {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -84px -296px;
   width: 42px;
   height: 42px;
@@ -4228,14 +4228,14 @@ ol li {
   border-top: 15px solid #faf2e2;
   font-size: 12px;
   line-height: 16px;
-  background: url("../images/for_residents/new-adv-services-list.png");
+  background: url("http://www.votchina.ru/images/for_residents/new-adv-services-list.png");
   background-color: #faf2e2;
 }
 .popup-body .new-adv-services-list-wrap {
-  background: url("../images/for_residents/new-adv-services-list-wrap.png") no-repeat;
+  background: url("http://www.votchina.ru/images/for_residents/new-adv-services-list-wrap.png") no-repeat;
 }
 .popup-body .new-adv-services-list-inner {
-  background: url("../images/for_residents/new-adv-services-list-inner.png") no-repeat left bottom;
+  background: url("http://www.votchina.ru/images/for_residents/new-adv-services-list-inner.png") no-repeat left bottom;
   padding: 24px 60px 60px 60px;
 }
 .popup-body table.order-list td.label {
@@ -4278,7 +4278,7 @@ ol li {
   font-weight: bold;
 }
 .popup-body table.order-list tr.sum td {
-  background: url("../images/for_residents/order-list-sum.png") repeat-x;
+  background: url("http://www.votchina.ru/images/for_residents/order-list-sum.png") repeat-x;
   border-top: none;
   white-space: nowrap;
   padding: 20px 0 0 0;
@@ -4698,7 +4698,7 @@ ol li {
 }
 .new-adv-order-form-select:before {
   content: '';
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -402px -110px;
   width: 7px;
   height: 6px;
@@ -4731,7 +4731,7 @@ ol li {
 .home-modal .close {
   right: 25px;
   top: 25px;
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -187px -248px;
   width: 44px;
   height: 44px;
@@ -4809,7 +4809,7 @@ ol li {
   top: 40%;
 }
 .home-modal .slider .owl-controls .owl-buttons .owl-prev {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -126px -296px;
   width: 42px;
   height: 42px;
@@ -4817,7 +4817,7 @@ ol li {
   left: 35px;
 }
 .home-modal .slider .owl-controls .owl-buttons .owl-next {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -42px -296px;
   width: 42px;
   height: 42px;
@@ -4857,7 +4857,7 @@ ol li {
 .more-modal .close {
   right: 25px;
   top: 25px;
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: 0px -296px;
   width: 42px;
   height: 42px;
@@ -5008,7 +5008,7 @@ ol li {
   display: inline-block;
   width: 40px;
   height: 40px;
-  background: url("../images/sprite.png") -48px -458px;
+  background: url("http://www.votchina.ru/images/sprite201611281736.png") -48px -458px;
   vertical-align: middle;
   margin-right: 15px;
 }
@@ -5016,7 +5016,7 @@ ol li {
   display: inline-block;
   width: 40px;
   height: 40px;
-  background: url("../images/sprite.png") -96px -458px;
+  background: url("http://www.votchina.ru/images/sprite201611281736.png") -96px -458px;
   vertical-align: middle;
   margin-right: 15px;
 }
@@ -5089,7 +5089,7 @@ ol li {
   background-color: rgba(229,222,181,.9);
 }
 .land-block.land-block--autumn {
-  background: rgba(255, 255, 255, 0.9) url("../images/genplan/best/best-3-overlay.png?201610031508") no-repeat scroll top left / 100% 100%;
+  background: rgba(255, 255, 255, 0.9) url("http://www.votchina.ru/images/genplan/best/best-3-overlay.png?201610031508") no-repeat scroll top left / 100% 100%;
 }
 .best-modal .land-block:after {
   content: " ";
@@ -5229,7 +5229,7 @@ ol li {
 }
 .select-styled:before {
   content: '';
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -402px -110px;
   width: 7px;
   height: 6px;
@@ -5280,7 +5280,7 @@ ol li {
 }
 .slider.event-slider.owl-theme .owl-controls .owl-buttons .owl-prev {
   left: -20px;
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -400px -168px;
   width: 12px;
   height: 14px;
@@ -5288,7 +5288,7 @@ ol li {
 }
 .slider.event-slider.owl-theme .owl-controls .owl-buttons .owl-next {
   right: -20px;
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -400px -184px;
   width: 12px;
   height: 14px;
@@ -5505,7 +5505,7 @@ ol li {
 }
 // .slider.event-slider.owl-theme .owl-controls .owl-buttons .owl-prev {
 //   left: -20px;
-//   background-image: url("../images/sprite.png");
+//   background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
 //   background-position: -126px -296px;
 //   width: 42px;
 //   height: 42px;
@@ -5513,7 +5513,7 @@ ol li {
 // }
 // .slider.event-slider.owl-theme .owl-controls .owl-buttons .owl-next {
 //   right: -20px;
-//   background-image: url("../images/sprite.png");
+//   background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
 //   background-position: -42px -296px;
 //   width: 42px;
 //   height: 42px;
@@ -5683,7 +5683,7 @@ ol li {
   top: -5px;
   width: 34px;
   height: 34px;
-  background: url("../images/sprite.png");
+  background: url("http://www.votchina.ru/images/sprite201611281736.png");
 }
 .modal-block .sprite.sprite-ambulance {
   background-position: -32px -424px;
@@ -5763,7 +5763,7 @@ ol li {
   content: '';
   width: 19px;
   height: 19px;
-  background: url("../images/sprite.png") -312px -424px;
+  background: url("http://www.votchina.ru/images/sprite201611281736.png") -312px -424px;
   position: absolute;
   left: -30px;
   top: 2px;
@@ -5772,7 +5772,7 @@ ol li {
   content: '';
   width: 19px;
   height: 19px;
-  background: url("../images/sprite.png") -336px -424px;
+  background: url("http://www.votchina.ru/images/sprite201611281736.png") -336px -424px;
   position: absolute;
   left: -30px;
   top: 2px;
@@ -5781,7 +5781,7 @@ ol li {
   content: '';
   width: 19px;
   height: 13px;
-  background: url("../images/sprite.png") -360px -424px;
+  background: url("http://www.votchina.ru/images/sprite201611281736.png") -360px -424px;
   position: absolute;
   left: -30px;
   top: 5px;
@@ -5790,7 +5790,7 @@ ol li {
   content: '';
   width: 20px;
   height: 20px;
-  background: url("../images/sprite.png") -142px -467px;
+  background: url("http://www.votchina.ru/images/sprite201611281736.png") -142px -467px;
   position: absolute;
   left: -30px;
   top: 2px;
@@ -5799,7 +5799,7 @@ ol li {
   content: '';
   width: 16px;
   height: 20px;
-  background: url("../images/sprite.png") -166px -467px;
+  background: url("http://www.votchina.ru/images/sprite201611281736.png") -166px -467px;
   position: absolute;
   left: -29px;
   top: 2px;
@@ -5855,7 +5855,7 @@ ol li {
   content: '';
   width: 16px;
   height: 16px;
-  background: url("../images/sprite.png") -395px -122px;
+  background: url("http://www.votchina.ru/images/sprite201611281736.png") -395px -122px;
   display: inline-block;
   vertical-align: middle;
   margin-right: 7px;
@@ -5864,7 +5864,7 @@ ol li {
   content: '';
   width: 16px;
   height: 13px;
-  background: url("../images/sprite.png") -395px -149px;
+  background: url("http://www.votchina.ru/images/sprite201611281736.png") -395px -149px;
   display: inline-block;
   vertical-align: middle;
   margin-right: 7px;
@@ -5979,7 +5979,7 @@ p .normal {
   position: absolute;
   left: 0;
   top: 3px;
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
 }
 .short-list-info .s-vk2 {
   background-position: -360px -464px;
@@ -6052,7 +6052,7 @@ p .normal {
   position: fixed;
   right: 0;
   bottom: 0;
-  background: transparent url("../images/button-viewing.png") no-repeat scroll 0 0;
+  background: transparent url("http://www.votchina.ru/images/button-viewing.png") no-repeat scroll 0 0;
   color: #fff;
   font-size: 16px;
   font-weight: 300;
@@ -6067,7 +6067,7 @@ p .normal {
 }
 
 .s-booking {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -288px -488px;
   width: 20px;
   height: 20px;
@@ -6093,7 +6093,7 @@ p .normal {
   z-index: 1000;
 }
 .s-write {
-  background-image: url("../images/sprite.png");
+  background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
   background-position: -392px -464px;
   width: 17px;
   height: 17px;
@@ -6115,7 +6115,7 @@ p .normal {
 
 .question {
   background: #343e14;
-  max-width: 380px;
+  max-width: 390px;
   padding: 15px 30px 30px;
   color: #fff;
   position: relative;
@@ -6123,7 +6123,25 @@ p .normal {
   margin: 25px 0 50px;
 }
 .col-big.blur-content .question {
+  float: left;
   margin: 25px 0 50px;
+}
+.col-big.blur-content .youtube-link {
+  float: left;
+  display: block;
+  width: 209px;
+  height: 154px;
+  margin: 25px 0 0 63px;
+}
+.col-big.blur-content .youtube-link:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: url("http://www.votchina.ru/images/i-smile.png") no-repeat scroll 0 0 transparent;
+  width: 34px;
+  height: 34px;
 }
 .question:after {
   content: '';
@@ -6162,6 +6180,31 @@ p .normal {
   margin-bottom: 4vh;
   height: 110px;
   width: 1px;
+}
+
+.page-404 {
+  text-align: center;
+  background: url(../images/404.jpg) center no-repeat;
+  background-size: cover;
+  font-weight: 300;
+  height: 100%;
+  display: table;
+  vertical-align: middle;
+  width: 100%;
+}
+.v-inner {display: table-cell; vertical-align: middle;}
+.page-404 p {
+  font-size: 23px;
+  line-height: 32px;
+  margin: 0;
+}
+.page-404 a {
+  color: #948217;
+}
+.page-404 .title {
+  color: #343e14;
+  font-size: 300px;
+  margin: 25px 0;
 }
 
 @media (max-width: 1330px) {
@@ -6486,7 +6529,7 @@ p .normal {
     vertical-align: middle;
   }
   .header .navbar.main-navbar .s-question {
-    background-image: url("../images/sprite.png");
+    background-image: url("http://www.votchina.ru/images/sprite201611281736.png");
     background-position: -296px -365px;
     width: 39px;
     height: 37px;
@@ -6595,7 +6638,7 @@ p .normal {
   }
   .main-title {
     font-size: 31px;
-    background: url("../images/logo.png") center top no-repeat;
+    background: url("http://www.votchina.ru/images/logo.png") center top no-repeat;
     padding-top: 120px;
   }
   .banners {
@@ -6818,6 +6861,7 @@ p .normal {
   .section.home .mobile-tel {
     font-size: 25px;
   }
+  .page-404 .title {font-size: 200px;}
 }
 @media (max-width: 400px) {
   body.open {
@@ -6880,4 +6924,22 @@ p .normal {
   .mobile-tel {
     font-size: 20px;
   }
+}
+
+
+.youtube-link {
+  position: relative;
+  background-color: rgba(0, 0, 0, .03);
+  border-radius: 3px;
+}
+.youtube-link:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: url("http://www.votchina.ru/images/i-youtube.png") no-repeat scroll 0 0 transparent;
+  margin: -15px 0 0 -22px;
+  width: 44px;
+  height: 31px;
 }
